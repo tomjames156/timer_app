@@ -3,3 +3,47 @@
     padding: 0;
     margin: 0;
 }
+
+body{
+    background: black;
+    color: white;
+    font-family: "Poppins";
+}
+
+main{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+div.buttons{
+    display: flex;
+    column-gap: 3rem;
+}
+
+a#start{
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background: green;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+    font-weight: bold;
+}
+
+a#stop{
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background: red;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+    font-weight: bold;
+}
+
+p#time{
+    font-size: 2rem;
+}

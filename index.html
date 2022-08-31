@@ -5,10 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timer App</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Link Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
-        
-    </main>    
+        <h1>Timer App</h1>
+        <div class="buttons">
+            <a href="#start" id="start" onclick="startTimer()">Start Timer</a>
+            <a href="#stop" id="stop" onclick="stopTimer()">Stop Timer</a>
+        </div>
+        <p id="time">00 : 00 : 00</p>
+    </main>  
+    <script src="application.js"></script>  
 </body>
 </html>
