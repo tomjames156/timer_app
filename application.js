@@ -16,7 +16,12 @@ function stopTimer(){
 }
 
 function restartTimer(){
-    myTime.terminate();
-    myTime = undefined;
-    document.getElementById("time").innerHTML = "00 : 00 : 00";
+    if(typeof(myTime) == "undefined"){
+        document.getElementById("time").innerHTML = "00 : 00 : 00";
+    }else{
+        myTime.terminate();
+        myTime = undefined;
+        document.getElementById("time").innerHTML = "00 : 00 : 00";
+    }
+    
 }
