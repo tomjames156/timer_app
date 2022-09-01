@@ -13,5 +13,10 @@ function startTimer(){
 function stopTimer(){
     myTime.terminate();
     myTime = undefined;
+}
+
+function restartTimer(){
+    myTime.terminate();
+    myTime = undefined;
     document.getElementById("time").innerHTML = "00 : 00 : 00";
 }

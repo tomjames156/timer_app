@@ -44,6 +44,16 @@ a#stop{
     font-weight: bold;
 }
 
+a#restart{
+    color: white;
+    text-decoration: none;
+    transition: ease color 0.3s;
+}
+
+a#restart:hover{
+    color: red;
+}
+
 p#time{
     font-size: 2rem;
 }
